@@ -96,7 +96,7 @@
   },
 
   "cpu": {
-    "interval": 5,
+    "interval": 3,
     "format": "  {usage}%",
     // "interval": 1,
     // "format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% ",
