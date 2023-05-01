@@ -7,4 +7,4 @@ Installing my dotfiles is pretty simple, if you have a little bit of Linux exper
 To finish installation, run `bash ~/.scripts/dotwtf/.install`. If you run into any permission errors attempting to run this script, run `chmod -R +x ~/.scripts` and try again.
 
 ### Updating
-To update your prplwtf/dotfiles with the latest version, run `dotwtf -u` to resync with the latest release.
+To update your prplwtf/dotfiles with the latest version, run `dotwtf -u` to resync with the latest release. This is still work-in-progress and may not work for everything.
