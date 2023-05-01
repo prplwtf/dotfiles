@@ -11,8 +11,7 @@ cd ~;
 mkdir .prplwtf;cd .prplwtf;
 
 git clone https://github.com/prplwtf/dotfiles.git;
-cd dotfiles;
-sudo cp -R ./* ~/;
+cp -R ./dotfiles/* ~/;
 
 cd ~;
 sudo rm -R .prplwtf;
