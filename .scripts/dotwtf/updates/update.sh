@@ -17,3 +17,4 @@ cp -R ./dotfiles/.scripts/ ~/.scripts/;
 
 cd ~;
 sudo rm -R .prplwtf;
+rm -R .git;
