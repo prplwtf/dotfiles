@@ -7,10 +7,10 @@ cd ~/.scripts/dotwtf;
 
 if [[ $1 ]]; then echo -e "$B→ Attempting to redirect '$1'.$R"; fi;
 
-# UPDATE
-if [[ $1 == "-u" ]]; then
-    sudo bash updates/update.sh
+# WALLPAPER
+if [[ $1 == "-w" ]]; then
+    sudo bash .script/dotwtf/misc/wallpaper.sh $2;
 fi;
 
 echo -e "\n"$B"prplwtf/dotfiles - dotwtf"$R"
-  -u    update dotwtf";
+  -w    change wallpaper";
