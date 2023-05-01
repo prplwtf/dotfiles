@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~;
+
 sudo rm /etc/skel/.config/hypr/bg/tron.jpg
 sudo rm /home/user/.config/hypr/bg/tron.jpg
 sudo rm /usr/share/sddm/themes/arcolinux-simplicity/images/background.jpg
