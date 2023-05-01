@@ -8,13 +8,6 @@
 
 cd ~;
 
-echo -e "prplwtf/dotfiles~ Registering 'dotwtf'.";
-touch .bin/dotwtf;
-sudo echo -e "#!/bin/bash\nbash ~/.scripts/dotwtf/dotwtf.sh \$@;" > .bin/dotwtf;
-
-echo -e "prplwtf/dotfiles~ Adding execute permissions to 'dotwtf'.";
-chmod +x .bin/dotwtf;
-
 echo -e "prplwtf/dotfiles~ Adding execute permissions to '.scripts'.";
 chmod -R +x ~/.scripts;
 
