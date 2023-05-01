@@ -13,7 +13,7 @@ touch .bin/dotwtf;
 sudo echo -e "#!/bin/bash\nbash ~/.scripts/dotwtf/dotwtf.sh \$@;" > .bin/dotwtf;
 
 echo -e "prplwtf/dotfiles~ Adding execute permissions to 'dotwtf'.";
-sudo chmod +x .bin/dotwtf;
+chmod +x .bin/dotwtf;
 
 echo -e "prplwtf/dotfiles~ Adding execute permissions to '.scripts'.";
 chmod -R +x ~/.scripts;
