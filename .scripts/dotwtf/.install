@@ -7,6 +7,7 @@
 # and just simply being really cool.
 
 echo -e "prplwtf/dotfiles~ Registering 'dotwtf'.";
+sudo touch /usr/local/bin/dotwtf;
 sudo echo -e "#!/bin/bash\nbash ~/.scripts/dotwtf/dotwtf.sh \$@;" > /usr/local/bin/dotwtf;
 
 echo -e "prplwtf/dotfiles~ Adding execute permissions to 'dotwtf'.";
