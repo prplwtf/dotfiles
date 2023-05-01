@@ -5,7 +5,7 @@ mkdir .prplwtf;cd .prplwtf;
 
 git clone https://github.com/prplwtf/dotfiles.git;
 cd dotfiles;
-cp -R ./* ~/;
+sudo cp -R ./* ~/;
 
 cd ~;
-rm -R .prplwtf;
+sudo rm -R .prplwtf;
