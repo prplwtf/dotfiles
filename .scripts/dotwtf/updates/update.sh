@@ -14,6 +14,8 @@ git clone https://github.com/prplwtf/dotfiles.git;
 cp -R ./dotfiles/ ~/;
 cp -R ./dotfiles/.config/ ~/.config/;
 cp -R ./dotfiles/.scripts/ ~/.scripts/;
+cp -R ./dotfiles/.scripts/dotwtf/.install ~/.scripts/dotwtf/.install;
+cp -R ./dotfiles/.bin/ ~/.bin/;
 
 cd ~;
 sudo rm -R .prplwtf;
