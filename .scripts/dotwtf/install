@@ -11,6 +11,9 @@ cd ~;
 echo -e "prplwtf/dotfiles~ Adding execute permissions to '.scripts'.";
 chmod -R +x ~/.scripts;
 
+echo -e "prplwtf/dotfiles~ Adding execute permissions to 'dotwtf'.";
+chmod -R +x ~/.bin/dotwtf;
+
 rm -R .git;
 
 echo -e "\n\n\e[0;34;40mHello there human.

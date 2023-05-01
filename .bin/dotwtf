@@ -13,4 +13,4 @@ if [[ $1 == "-w" ]]; then
 fi;
 
 echo -e "\n"$B"prplwtf/dotfiles - dotwtf"$R"
-  -w    change wallpaper";
+  -w    change wallpaper""\n";
