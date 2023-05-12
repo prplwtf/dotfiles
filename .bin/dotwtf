@@ -9,7 +9,7 @@ if [[ $1 ]]; then echo -e "$B→ Attempting to redirect '$1'.$R"; fi;
 
 # WALLPAPER
 if [[ $1 == "-w" ]]; then
-    sudo bash .scripts/dotwtf/misc/wallpaper.sh $2;
+    sudo bash misc/wallpaper.sh $2;
     exit 1;
 fi;
 
