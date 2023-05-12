@@ -4,7 +4,7 @@
 ### Features
 - Clean distraction-less status bar with tray support and system stats.
 - One command for changing the desktop and sddm lock screen wallpaper.
-- Fixes for the Windscribe VPN application not working and stop it from glitching out.
+- Fixes for the Windscribe and Junction applications.
 
 ### Installation
 Installing my dotfiles is pretty simple, if you have a little bit of Linux experience that is. Either way, download all my dotfiles and put them into your user home folder.
