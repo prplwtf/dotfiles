@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd ~;
+echo -e "Simple icon pack changer for ArcoLinux by prpl.
+
+The best way to fix something is by searching your filesystem
+for hours and then just replacing the icon pack itself. :)
+
+Using argument one as the icon pack. Modify the script if
+any of these things do not work and make sure to run this as
+sudo."
+
+cd /usr/share/icons;
+sudo rm -R /usr/share/icons/arcolinux-candy-beauty;
+sudo mv $1 /usr/share/icons/arcolinux-candy-beauty;
+sudo cp -R /usr/share/icons/arcolinux-candy-beauty $1;
