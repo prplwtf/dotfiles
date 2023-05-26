@@ -1,6 +1,11 @@
 #!/bin/bash
 
-cd ~;
+cd ~/.wallpapers
+
+if [[ $1 == "list" ]]; then
+  ls
+  exit 1
+fi;
 
 sudo rm /etc/skel/.config/hypr/bg/tron.jpg
 sudo rm /home/user/.config/hypr/bg/tron.jpg
