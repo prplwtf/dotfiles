@@ -12,4 +12,4 @@ Installing my dotfiles is pretty simple, if you have a little bit of Linux exper
 To finish installation, run `chmod +x ~/.bin/mset;chmod +x ~/.bin/chwall`.
 
 ### Usage
-**Changing the wallpaper.** Run `chwall <path-to-image>` and reboot or right click the calendar in the status bar.
+**Changing the wallpaper.** Run `chwall <path-to-image>` and reboot or right click the calendar in the status bar. Default directory is `~/Pictures/Wallpapers`.
