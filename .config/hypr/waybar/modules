@@ -76,13 +76,13 @@
     "format": "{icon}  {capacity}%",
     "format-charging": "  {capacity}%",
     "format-plugged": "  {capacity}%",
-    "format-full": "{icon}  Full",
+    "format-full": "  100%",
     //"format-good": "",
     "format-alt": "{icon}  {time}",
     "format-icons": ["", "", "", "", ""],
     "format-time": "{H}h {M}min",
     "tooltip": true,
-    "on-click-right": "~/.config/hypr/scripts/glassmorphismToggle"
+    "on-click-right": "~/.config/hypr/scripts/lockscreen"
   },
 
   "clock": {
@@ -91,8 +91,9 @@
     "rotate": 0,
     "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
     "format": "{:%d %b, %H:%M}",
-    "format-alt": " {:%a %b %d, %G}",
-    "on-click-right": "~/.config/hypr/scripts/changeWallpaper",
+    "on-click": "~/.bin/mset -y",
+    "on-click-middle": "~/.config/hypr/scripts/changeWallpaper",
+    "on-click-right": "~/.config/hypr/scripts/colorpicker",
   },
 
   "cpu": {
@@ -134,6 +135,7 @@
     "format-disabled": "󰖪  Disabled",
     "format-alt": "  {bandwidthUpBits}     {bandwidthDownBits}",
     "tooltip-format": "󰌗   {ifname} via {gwaddr}",
+    "on-click-right": "kitty --hold -T \"NETWORKMANAGER\" \"nmtui\"",
   },
 
   "custom/weather": {

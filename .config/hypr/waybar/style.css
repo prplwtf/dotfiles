@@ -6,7 +6,7 @@
 
 window#waybar {
   /* Transparent waybar. Make sure to comment out background-color: and border: */
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0);
   /* background-color: #1e1e2e; */
   /* border: 2px solid #313244; */
   transition-property: background-color;
